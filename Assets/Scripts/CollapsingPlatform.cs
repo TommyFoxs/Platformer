@@ -14,7 +14,7 @@ public class CollapsingPlatform : MonoBehaviour
         {
             if (hasCollided == false)
             {
-                if (col.gameObject.transform.position.y >= transform.position.y)
+                if (col.gameObject.transform.position.y-1 > transform.position.y)
                 {
                     hasCollided = true;
                     StartCoroutine(CollapseBlock());
