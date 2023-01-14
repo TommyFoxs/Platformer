@@ -12939,10 +12939,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Broken Elevator
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5673420211143454616, guid: 2c59080486df91742b49249ceb03d768, type: 3}
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
     - target: {fileID: 5673420211143454620, guid: 2c59080486df91742b49249ceb03d768, type: 3}
       propertyPath: m_RootOrder
       value: 8

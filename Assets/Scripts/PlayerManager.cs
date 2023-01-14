@@ -8,7 +8,10 @@ public class PlayerManager : MonoBehaviour
 {
     public bool hasKeycard = false;
     public GameObject blackOutSquare;
+<<<<<<< HEAD
     private bool isSpeaking = false;
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 
     public LevelChanger levelchanger;
     public bool isDead = false;
@@ -18,8 +21,11 @@ public class PlayerManager : MonoBehaviour
 
     [SerializeField]
     private Transform player;
+<<<<<<< HEAD
     [SerializeField] private AudioSource source;
     [SerializeField] private AudioClip deathSound;
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
     Camera camera;
 
 
@@ -28,11 +34,14 @@ public class PlayerManager : MonoBehaviour
     void Start()
     {
         camera = Camera.main;
+<<<<<<< HEAD
         if (MainManager.hasChanged == false)
         {
             MainManager.hasChanged = true;
             MainManager.Volume = 0.5f;
         }
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -51,6 +60,11 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.layer == 11)
@@ -71,6 +85,7 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     void OnTriggerExit2D(Collider2D col)
     {
         if (isSpeaking == true && col.gameObject.layer == 14)
@@ -80,11 +95,14 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
     private IEnumerator exitLevel(GameObject elevatorObject)
     {
         ElevatorScript elevator = elevatorObject.GetComponent<ElevatorScript>();
         if (elevator.isExit == true)
         {
+<<<<<<< HEAD
             int levelIndex = SceneManager.GetActiveScene().buildIndex;
             if (levelIndex != 7 || hasKeycard == true)
             {
@@ -100,6 +118,14 @@ public class PlayerManager : MonoBehaviour
                 animator.SetBool("IsSpeaking", true);
                 isSpeaking = true;
             }
+=======
+            yield return new WaitForSeconds(0.2f);
+            //player going into elevator animation
+            playerinput.currentActionMap.Disable();
+            elevator.onExit();
+            yield return new WaitForSeconds(1f);
+            levelchanger.fadeToLevel(SceneManager.GetActiveScene().buildIndex+1);
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
         }
     }
 
@@ -115,7 +141,10 @@ public class PlayerManager : MonoBehaviour
     {
         if(isDead == false)
         {
+<<<<<<< HEAD
             source.PlayOneShot(deathSound, MainManager.Volume);
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
             isDead = true;
             animator.SetBool("IsDead", true);
             animator.SetTrigger("Death");

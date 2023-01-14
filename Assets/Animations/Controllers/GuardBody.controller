@@ -118,6 +118,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
   - m_Name: Blend
     m_Type: 1
@@ -125,6 +126,9 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

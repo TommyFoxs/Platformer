@@ -48,7 +48,10 @@ GameObject:
   - component: {fileID: 3209466803633216907}
   - component: {fileID: 3209466803633216906}
   - component: {fileID: 3209466803633216909}
+<<<<<<< HEAD
   - component: {fileID: 2220859299006850921}
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_Layer: 2
   m_Name: Player
   m_TagString: Player
@@ -295,9 +298,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 264
   playermanager: {fileID: 3209466803633216909}
+<<<<<<< HEAD
   source: {fileID: 2220859299006850921}
   jumpSound: {fileID: 8300000, guid: 48511141a1fa09f489d1af68f7ba3c73, type: 3}
   speech: {fileID: 0}
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 --- !u!61 &3209466803633216887
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -391,6 +397,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4096
   player: {fileID: 3209466803633216885}
+<<<<<<< HEAD
   source: {fileID: 2220859299006850921}
   deathSound: {fileID: 8300000, guid: 77d5b64d9d14d90449614736f70e5f30, type: 3}
   playerinput: {fileID: 3209466803633216905}
@@ -490,6 +497,9 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+  playerinput: {fileID: 0}
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 --- !u!1 &3209466803883714041
 GameObject:
   m_ObjectHideFlags: 0

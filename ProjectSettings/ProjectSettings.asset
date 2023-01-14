@@ -12,8 +12,13 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
+<<<<<<< HEAD
   companyName: TommyFoxs
   productName: Laboratorial
+=======
+  companyName: DefaultCompany
+  productName: Platformer
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -272,7 +277,10 @@ PlayerSettings:
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons: []
   m_BuildTargetBatching: []
+<<<<<<< HEAD
   m_BuildTargetShaderSettings: []
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_BuildTargetGraphicsJobs:
   - m_BuildTarget: MacStandaloneSupport
     m_GraphicsJobs: 0
@@ -309,8 +317,11 @@ PlayerSettings:
     m_APIs: 10000000
     m_Automatic: 1
   m_BuildTargetVRSettings: []
+<<<<<<< HEAD
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
@@ -471,7 +482,10 @@ PlayerSettings:
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
+<<<<<<< HEAD
   switchUseLegacyFmodPriorities: 1
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   switchUseMicroSleepForYield: 1
   switchEnableRamDiskSupport: 0
   switchMicroSleepForYieldTime: 25
@@ -571,7 +585,10 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
+<<<<<<< HEAD
   webGLPowerPreference: 2
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   scriptingDefineSymbols: {}
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -583,7 +600,10 @@ PlayerSettings:
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
   enableRoslynAnalyzers: 1
+<<<<<<< HEAD
   selectedPlatform: 0
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 1
@@ -661,7 +681,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 1
+<<<<<<< HEAD
   windowsGamepadBackendHint: 0
+=======
+>>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
