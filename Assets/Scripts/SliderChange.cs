@@ -20,9 +20,4 @@ public class SliderChange : MonoBehaviour
         MainManager.Volume = volumeSlider.value;
         MainManager.hasChanged = true;
     }
-
-    void Update()
-    {
-        Debug.Log(MainManager.Volume);
-    }
 }

@@ -2,10 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-<<<<<<< HEAD
 using UnityEngine.SceneManagement;
-=======
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -17,18 +14,14 @@ public class PlayerMovement : MonoBehaviour
     private LayerMask groundLayer;
     public PlayerManager playermanager;
 
-<<<<<<< HEAD
     [SerializeField] private AudioSource source;
     [SerializeField] private AudioClip jumpSound;
-=======
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 
     private float horizontal;
     private float speed = 8f;
     private float jumpingPower = 12f;
     private bool isfacingRight = true;
 
-<<<<<<< HEAD
     private int sceneIndex;
 
     [SerializeField] private GameObject speech;
@@ -46,11 +39,6 @@ public class PlayerMovement : MonoBehaviour
             loc.y += 2;
             speech.transform.position = loc;
         }
-=======
-
-    void Update()
-    {
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
         if (playermanager.isDead == true)
         {
             rb.velocity = new Vector2(0, 0);
@@ -75,10 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed && isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-<<<<<<< HEAD
             source.PlayOneShot(jumpSound, MainManager.Volume);
-=======
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
         }
 
          if (context.canceled && rb.velocity.y > 0f)
@@ -106,13 +91,10 @@ public class PlayerMovement : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
-<<<<<<< HEAD
         if (sceneIndex == 7)
         {
             speech.transform.localScale = localScale;
         }
-=======
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
     }
 
     public void Move(InputAction.CallbackContext context)

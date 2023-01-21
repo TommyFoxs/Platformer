@@ -478,11 +478,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-<<<<<<< HEAD
             m_IntArgument: 2
-=======
-            m_IntArgument: 1
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -595,21 +591,12 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 1496129218}
           m_TargetAssemblyTypeName: LevelChanger, Assembly-CSharp
-<<<<<<< HEAD
           m_MethodName: fadeToLevel
           m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-=======
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 1
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -893,10 +880,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
-<<<<<<< HEAD
   m_CursorLockBehavior: 0
-=======
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 --- !u!1 &1356448199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,11 +1068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_text: 'nicer background for start screen, quit button,
-=======
-  m_text: 'more levels, nicer background for start screen. keycard elevator for exit
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
 
 '
   m_isRightToLeft: 0
@@ -1153,11 +1133,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-<<<<<<< HEAD
   m_margin: {x: 214.35474, y: 59.187515, z: 63.986572, w: 111.97647}
-=======
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1183,11 +1159,7 @@ GameObject:
   - component: {fileID: 1698313006}
   - component: {fileID: 1698313005}
   m_Layer: 5
-<<<<<<< HEAD
   m_Name: Background
-=======
-  m_Name: Image
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1226,22 +1198,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-<<<<<<< HEAD
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-=======
-  m_Color: {r: 0.52772343, g: 0.5566038, b: 0.5421636, a: 1}
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: f42b8cfc48f835443946a5136b49995a, type: 3}
-=======
-  m_Sprite: {fileID: 0}
->>>>>>> 218d55cef7d846e15475e89bdd94f33d8ee30b11
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
