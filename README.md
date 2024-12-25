@@ -1,5 +1,5 @@
 # Laboratorial
-A pixel-art platformer game about escaping a laboratory. <br /> <br />
+A pixelart platformer game about escaping a laboratory. <br /> <br />
 ![laboratorial](https://github.com/user-attachments/assets/00da08fd-345c-4993-a78c-c4e4e9655750)
 
 ## Content
