@@ -7,5 +7,5 @@ The game consists of six levels each with a variety of obstacles. These obstacle
 man trying to escape from a laboratory while avoiding these obstacles.
 
 ## License
-This project is licensed under the [MIT License](github.com/vulpesomnia/laboratorial/blob/main/LICENSE). <br />
+This project is licensed under the [MIT License](https://github.com/vulpesomnia/laboratorial/blob/main/LICENSE). <br />
 Please see the `LICENSE` file for more information.
